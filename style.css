@@ -1,0 +1,909 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+.navbar{
+    background-color:#1f2020;
+    width: 100%;
+    height: 82px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+        
+.logo{
+    width: 100px;
+    height: 79px;
+    margin: 5px 5px 5px 45px;
+}
+
+ header{
+    margin: -70px 0px 0px 740px;
+    box-shadow: #1f2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+header li{
+    display: inline;
+    padding-left: 20p; 
+    padding: 10px;
+    
+}
+
+header li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+li a i{
+    color: antiquewhite;
+    font-size: 30px;   
+    padding: 5px 0px -5px 0px;
+}
+.container{
+    background-color: grey;
+    width: 700px;
+    height: 381px;
+}
+ .pic{
+    width: 700px;
+    height: 381px;
+ }
+.head{
+    margin-bottom: 2px;  
+    padding: 60px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: oswald, sans-serif;
+    letter-spacing: 3px;
+}
+.bold{
+    margin:-60px 0px 0px 60px;
+    padding: -30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: oswald, sans-serif;
+    letter-spacing: -2px;
+}
+.end{
+    margin: 0px 0px 0px 60px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.button{
+    margin: 0px 0px 0px 60px;
+    width: 163px;
+    height: 45PX;
+    padding: 15px;
+    margin-top: 15PX;
+    border: 2px solid #dac125;
+    background-color:  rgb(68, 68, 68);
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.content{
+    background: #111517;
+    width: 100%;
+
+}
+
+.title{
+    padding: 35px;
+    margin-left: 63px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: oswald, sans-serif;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.demo{
+    width: 878px;
+    height: 451px;
+    margin-left: 250px;
+
+}
+.second{
+    background: #111517;
+    width: 100%;
+    height: 310px;
+}
+.start{
+    font-family: oswald, sans-serif;
+    margin-left: 210px;
+    padding-top: 50px;
+}
+.part{ 
+    font-family: oswald, sans-serif;
+    margin-left: 210px;
+    padding-top: 5px;
+    }
+.line{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: oswald, sans-serif;
+    margin-left: 220px;
+    margin-top: 10px;
+}  
+.para{
+    color: rgb(148, 148, 148);
+    margin-left: 580px;
+    margin-top: -265px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+}
+.key{
+    margin-left: 580px;
+    margin-top: -250px;
+    width: 300px;
+    height: 45PX;
+    padding: 15px;
+    margin-top: 15PX;
+    border: 2px solid #dac125;
+    background-color:   #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.third{
+    width: 100%;
+    height: 360px;
+}
+.eye{
+    width: 50%;
+    height: 355px;
+    margin: 43px 0px 0px 0px;
+}
+.spons{
+    width: 50%;
+    height: 355px;
+    background: #ebcc00;
+    margin: -317px 0px 90px 673px;
+
+}
+.top{
+    color: #fff;
+    text-align: center;
+    font-family: Oswald,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+.mid{
+    color: #fff;
+    margin: 5px 0px 0px 60px;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    white-space: pre-line;
+    letter-spacing: 0.5px;
+}
+.log{
+    margin: 15px 0px 0px 250px;
+    width: 163px;
+    height: 55PX;
+    padding: 10px;
+    background-color:  #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.four{
+    width: 100%;
+    height: 300px;
+    background: #111517;
+    margin: -90px 0px 0px 0px;
+}
+.start1{
+    font-family: oswald, sans-serif;
+    margin-left: 175px;
+    padding-top: 30px;
+
+}
+.part1{
+    font-family: oswald, sans-serif;
+    margin-left: 173px;
+    padding-top: 5px;
+    font-weight: 500;
+    letter-spacing: -2px
+    
+}
+.line1{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: oswald, sans-serif;
+    margin-left: 180px;
+    padding-top: 15px;  
+}
+.stanza{
+    color: rgb(148, 148, 148);
+    margin-left: 540px;
+    margin-top: -270px;
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+    letter-spacing: 0px;
+}
+.log1{
+    margin-left: 540px;
+    margin-top: -250px;
+    width: 300px;
+    height: 45PX;
+    padding: 15px;
+    margin-top: 23PX;
+    border: 2px solid #dac125;
+    background-color:   #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.five{
+    width: 100%;
+    height: 355px;
+}
+.lifter{
+    width: 50%;
+    height: 374px;
+    margin: 48px 0px 0px 0px;
+}
+.sponzer{
+    width: 50%;
+    height: 373px;
+    background: #ebcc00;
+    margin: -306px 0px 90px 673px;
+}
+.top1{
+    color: #fff;
+    text-align: center;
+    font-family: Oswald,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+.mid1{
+    color: #fff;
+    margin: 5px 0px 0px 60px;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    white-space: pre-line;
+    letter-spacing: 0.5px;
+}
+.log2{
+    margin: 15px 0px 0px 250px;
+    width: 163px;
+    height: 50PX;
+    padding: 10px;
+    background-color:  #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.six{
+
+    width: 100%;
+    height: 500px;
+    background: #111517;
+    margin: -90px 0px 0px 0px;
+}
+.start2{
+    font-family: oswald, sans-serif;
+    margin-left: 175px;
+    padding-top: 30px;
+
+}
+.part2{
+    font-family: oswald, sans-serif;
+    margin-left: 173px;
+    padding-top: 5px;
+    font-weight: 900;
+    letter-spacing: -2px
+    
+}
+.line2{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: oswald, sans-serif;
+    margin-left: 180px;
+    padding-top: 15px;  
+}
+.para1{
+    color: rgb(148, 148, 148);
+    margin-left: 540px;
+    margin-top: -470px;
+    font-size: 18px;
+    line-height: 2.0;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+}
+.log3{
+    margin-left: 540px;
+    margin-top: -250px;
+    width: 300px;
+    height: 47PX;
+    padding: 15px;
+    margin-top: 10PX;
+    border: 2px solid #dac125;
+    background-color:   #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.seven{
+    width: 100%;
+    height: 755px;
+    background: #111517;
+    margin: -90px 0px 0px 0px;
+}
+.fitness{
+    width: 50%;
+    margin-top: 130px;
+    height: 625px;
+}
+.skill-main{
+width: 45%;
+color: #fff;
+font-family: Oswald,sans-serif;
+margin-left: 715px;
+}
+.heading{
+    margin-top: -540px;
+    color: #ebcc00;
+    text-align: center;
+    font-size: 32px;
+}
+
+.skill-main .skill-bar .info{
+    display: flex;
+    padding: 15px;
+}
+.percentage{
+    margin-left: 320px;
+}
+
+.percentage1{
+    margin-left: 430px;
+}
+
+.percentage2{
+    margin-left: 395px;
+}
+
+.percentage3{
+    margin-left: 429px;
+}
+
+.percentage4{
+    margin-left: 254px;
+}
+
+.percentage5{
+    margin-left: 369px;
+}
+.skill-bar .bar{
+width: 85%;
+height: 3px;
+position: relative;
+background-color: #fff;
+margin-left: 10px;
+}
+.skill-bar .bar span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ebcc00;
+}
+.skill-bar .bar  .IMMUNE{
+    width: 90%;
+    background-color: #ebcc00;
+}
+
+.skill-bar .bar  .JOINT{
+    width: 75%;
+    background-color: #ebcc00;
+}
+
+.skill-bar .bar  .HEALTHY{
+    width: 8%;
+    background-color: #ebcc00;
+}
+.skill-bar .bar  .EXERCISE{
+    width: 50%;
+    background-color: #ebcc00;
+}
+
+.log4{
+    margin-left: 170px;
+    width: 300px;
+    height: 45PX;
+    padding: 15px;
+    margin-top: 30PX;
+    border: 2px solid #dac125;
+    background-color:   #111517;
+    font-size: 13px;
+    font-weight: 100;
+    font-family:  oswald, sans-serif;
+    letter-spacing: 2px;
+}
+.headline{
+    margin-top: 40px;
+    font-size: 45px;
+    letter-spacing: -2px;
+    color: #ebcc00;
+    line-height: 1;
+    text-align: center;
+}
+.secondline{
+    text-align: center;
+    margin-top: 5px;
+    font-family:  oswald, sans-serif;
+    font-size: 17px;
+}
+.main{
+    width: 100%;
+    height: 595px;
+    display: flex;
+}
+
+.drift{
+    width: 382px;
+    height: 253px;  
+    margin-left: 50px;
+    margin-top: 40px; 
+}
+.bike1{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 330px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.motor{
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.motor1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+} 
+
+.game{
+    width: 382px;
+    height: 253px;  
+    margin-top: 40px; 
+    margin-left: 50px;
+}
+.gamer{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 330px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.squad{
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.squad1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+}
+.fight{
+    width: 382px;
+    height: 253px;  
+    margin-top: 40px; 
+    margin-left: 50px;
+}
+.fighter{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 330px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.match{
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.match1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+}
+.main1{
+    width: 100%;
+    height: 630px;
+    display: flex;
+}
+.guard{
+    width: 382px;
+    height: 253px;  
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.recovery{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 300px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.fire{
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.fire1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+}
+.office{
+    width: 382px;
+    height: 253px;  
+    margin-top: 40px; 
+    margin-left: 50px;
+}
+.work{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 300px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.meeting{
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.meeting1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif; 
+}
+.army{
+    width: 382px;
+    height: 253px;  
+    margin-top: 40px; 
+    margin-left: 50px;
+}
+.camp{
+    background-color:rgb(235, 235, 235);
+    width: 382px;
+    height: 300px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.force{
+
+    margin: 90px 0px 0px 20px;
+    font-family:  oswald, sans-serif;
+    font-size: 13px;
+    margin-top: 40px !important;
+}
+.force1{
+    margin: 30px 0px 0px 20px;
+    font-size: 13px;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: Open Sans,sans-serif;
+}
+.contact{
+    width: 100%;
+    height: 1000px;
+    background: #1e2328;
+  
+}
+.first{
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center!important;
+    font-family: Oswald,sans-serif;
+    color: #ebcc00;
+}
+.images{
+    width: 100%;
+    padding-top: 50PX;
+
+  
+
+}
+.box5{
+    width: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    border-width: 10px;
+    
+}
+
+.pic1{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+
+.pic2{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+.pic3{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+.pic4{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+}
+.images1{
+    width: 100%;
+    padding-top: 50PX;
+
+}
+.box6{
+    width: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin: -4px;
+    margin-left: 0.5px;
+}
+.pic1{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+.pic2{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+.pic3{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+}
+.pic4{
+    width: 220px;
+    height: 220px;
+    border-bottom: 1px solid #888;
+}
+.images2{
+    width: 100%;
+}
+.box7{
+    width: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+.pic5{
+    width: 220px;
+    height: 220px;
+    border-right: 1px solid #888;
+}
+.pic6{
+    width: 220px;
+    height: 220px;
+    border-right: 1px solid #888;
+}
+.pic7{
+    width: 220px;
+    height: 220px;
+    border-right: 1px solid #888;
+}
+.pic8{
+    width: 220px;
+    height: 220px;
+}
+.content1{
+    width: 100%;
+    background: #1e2328;
+    height: 300px;
+    margin-top: -20px;
+}
+.title2{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center!important;
+    font-family: Oswald,sans-serif;
+    color: #ebcc00;
+}
+.title3{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center!important;
+    font-family: Oswald,sans-serif;
+    color: #fff;
+}
+.tkcontent{
+    width: 100%;
+    display: flex;
+    float: left;
+    margin-top: 50px;
+}
+.university{
+    width: 246px;
+    height: 147px;
+    margin-left: 70px;
+    border-right: 1px solid #888;
+}
+.boston{
+    width: 246px;
+    height: 147px;
+    border-right: 1px solid #888;
+}
+.crown{
+    width: 246px;
+    height: 147px;
+    border-right: 1px solid #888;
+}
+.mlt{
+    width: 246px;
+    height: 147px;
+    border-right: 1px solid #888;
+}
+.nasa{
+    width: 246px;
+    height: 147px;
+}
+.footer{
+    width: 100%;
+    height: 330px;
+    background: #111517;
+}
+.white{
+    width: 100px;
+    height: 79px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.head6{
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.head7{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.insta{
+    margin-left: 20px;
+}
+.twiter{
+    margin-left: 20px;
+}
+.ending{
+    margin-top: -185px;
+    margin-left: 280px;
+    width: 158px;
+    height: 193px;
+    border-right: 1px solid #ebcc00;
+}
+
+ li a{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.ending1{
+    margin-left: 480px;
+    margin-top: -195px;
+    text-align: left;
+}
+.contact1{
+    margin-left: 670px;
+    margin-top: -110px;
+    font-size: 4px;
+}
+.reach{
+ width: 160px;
+ height: 190px;
+ margin-left: 1150px;
+ margin-top: -120px;
+}
+.footer5{
+    display: flex;
+}
+.hint{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 170px;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: #bbbaba;
+}
+.hint1{
+    color: #bbbaba;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-left: 380px;
+}
